@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handmade Jewelry Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Handmade Jewelry</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" id="cart-icon">🛒 (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Unique Handmade Jewelry</h2>
+        <p>Discover beautifully crafted pieces made with love.</p>
+        <a href="#" class="btn">Shop Now</a>
+    </section>
+
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://source.unsplash.com/300x300/?jewelry,handmade" alt="Handmade Necklace">
+                <h3>Handmade Necklace</h3>
+                <p>$25.00</p>
+                <button onclick="addToCart('Handmade Necklace', 25)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://source.unsplash.com/300x300/?bracelet,handmade" alt="Handmade Bracelet">
+                <h3>Handmade Bracelet</h3>
+                <p>$15.00</p>
+                <button onclick="addToCart('Handmade Bracelet', 15)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Handmade Jewelry. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
